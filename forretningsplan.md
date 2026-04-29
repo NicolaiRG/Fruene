@@ -453,3 +453,36 @@ Bedriftskunder, gavekort, vurder lager og transport. Begynn å delegere enkeltop
 Julesesong, evaluer året, planlegg år 2 med mer kapasitet og mulig ansettelse.
 
 ---
+
+## Del 10: Risikoanalyse & Konkurransefortrinn
+
+### Risikoer og tiltak
+
+| Risiko | Sannsynlighet | Konsekvens | Tiltak |
+|---|---|---|---|
+| Dårlig vær / avlysning | Høy (sommer) | Middels | Alltid tilby innendørsalternativ hos kunden. Fleksibel ombooking |
+| Skade på utstyr | Middels | Middels | Sikkerhetsdepositum + klientkontrakt + forsikring |
+| Konkurrent etablerer seg | Middels (år 2+) | Høy | Bygg merkevare og kundelojalitet raskt — first mover-fordelen er avgjørende |
+| Treg oppstart / få bookinger | Middels | Høy | 2–3 gratis influenser-events fra dag én for å bygge innhold og troverdighet |
+| Grunnlegger-utbrenthet | Middels | Høy | Maks 2 events per dag, minst én fridag per uke, klar rollefordeling |
+| Utstyr forsvinner / stjeles | Lav | Middels | Itemisert sjekkliste ved hver nedrigging, forsikring |
+| MVA og regnskap-feil | Lav | Middels | Bruk Fiken fra dag én, vurder regnskapsfører fra år 2 |
+
+---
+
+### Konkurransefortrinn
+
+1. **Lokal tilstedeværelse** — raskere respons og lavere transportkostnader enn Oslo-aktører
+2. **Fullservice** — kunden gjør null arbeid, kjøper en ren opplevelse
+3. **Skreddersøm** — ingen faste pakker, alt tilpasses farge og tema
+4. **Sosiale medier som motor** — hvert event er et markedsføringsstykke
+5. **Grunnleggerhistorie** — to unge kvinner som bygger noe vakkert; relaterbart og delbart
+6. **First mover i Stavanger** — ingen etablert konkurrent per 2026
+
+---
+
+### Avslutning
+
+Fruene har alle forutsetninger for å lykkes: et udekket marked, lav terskel for oppstart, høy margin og et produkt som markedsfører seg selv. Nøkkelen er å komme raskt i gang, bygge innholdsbiblioteket aktivt fra første event, og levere så bra at kundene blir ambassadører.
+
+*Vi setter opp drømmen din — Stavanger, 2026.*
