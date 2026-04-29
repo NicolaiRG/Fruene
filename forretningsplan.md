@@ -292,3 +292,70 @@ Starter ikke med betalt annonsering før organisk vekst er etablert. Fra måned 
 - Fokus på høysesong (17. mai, sommer, jul)
 
 ---
+
+## Del 7: Økonomi & finansielle prognoser
+
+### Oppstartskostnader (engangsutgifter)
+
+| Post | Estimert kostnad |
+|---|---|
+| Utstyrsinventar (bord, puter, tekstiler, dekketøy ×20) | 25 000 kr |
+| Dekor (vaser, lys, skilt, ballonger, blomster) | 10 000 kr |
+| Merkevare (logo, visittkort, maler) | 3 000 kr |
+| Nettside (domene + enkel bookingside) | 2 000 kr |
+| Innholdsfoto (første shoot) | 3 000 kr |
+| Diverse (emballasje, merkelapper, poser) | 2 000 kr |
+| **Totalt** | **~45 000 kr** |
+
+> Splittes likt: ~22 500 kr per grunnlegger. Alternativt: søk oppstartslån hos Innovasjon Norge (opptil 75 000 kr).
+
+---
+
+### Faste månedlige kostnader
+
+| Post | Kostnad |
+|---|---|
+| Lager (fra måned 6) | 700 kr |
+| Instagram-annonser (fra måned 4) | 500–1 000 kr |
+| Fiken regnskapsprogram | 179 kr |
+| Diverse forbruksmateriell (blomster, lys) | 1 500 kr |
+| **Totalt** | **~2 900–3 400 kr/mnd** |
+
+---
+
+### Inntektsprognoser år 1
+
+| Periode | Events/mnd | Snitt inntekt/event | Månedlig omsetning |
+|---|---|---|---|
+| Måned 1–2 | 4 | 2 500 kr | 10 000 kr |
+| Måned 3–4 | 10 | 2 800 kr | 28 000 kr |
+| Måned 5–6 | 18 | 3 000 kr | 54 000 kr |
+| Måned 7–12 | 25 | 3 200 kr | 80 000 kr |
+
+**Estimert årsomsetning år 1:** ~550 000–650 000 kr
+
+---
+
+### Break-even analyse
+
+| | |
+|---|---|
+| Variabel kostnad per event | ~500 kr |
+| Gjennomsnittlig inntekt per event | ~2 800 kr |
+| Dekningsbidrag per event | ~2 300 kr |
+| Faste kostnader per måned | ~3 200 kr |
+| **Break-even (events/mnd)** | **~2 events** |
+
+Break-even er svært lavt — allerede fra 2 events per måned dekkes de faste kostnadene. Lønn til grunnleggerne tas ut fra måned 6.
+
+---
+
+### 3-årsplan (overordnet)
+
+| År | Omsetning | Events | Status |
+|---|---|---|---|
+| År 1 | ~600 000 kr | ~150 | Etablering, organisk vekst |
+| År 2 | ~1 100 000 kr | ~280 | Skalering, deltidsansatt |
+| År 3 | ~1 600 000 kr | ~400 | Fast ansatt, merkevare etablert |
+
+---
