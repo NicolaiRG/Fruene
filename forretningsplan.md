@@ -96,3 +96,54 @@ Stavanger kommune har ca. 145 000 innbyggere. Sandnes ytterligere 80 000. Innenf
 | November–mars | Lavsesong | Julefrokost-pakke, innendørs piknik |
 
 ---
+
+## Del 4: Priser & Pakker
+
+### Basispakke — Pop Up Piknik
+
+| Gruppestørrelse | Pris |
+|---|---|
+| 2 personer | Fra 1 299 kr |
+| 4–8 personer | 375 kr/person |
+| 9–15 personer | 345 kr/person |
+| 16–20 personer | 315 kr/person |
+
+Basispakken inkluderer alltid: bord, puter, duk, bordløper, komplett kuvert per person, blomsterarrangement, levering, oppsett og nedrigging innen Stavanger/Sandnes.
+
+---
+
+### Tilvalg
+
+| Tilvalg | Pris |
+|---|---|
+| Ballongbue eller ballonggirlander | 400–800 kr |
+| Etasjefat / kakestativ | 150 kr |
+| Lysende LED-skilt ("I love u", "Let's Party") | 350 kr |
+| Lys og lysestaker | 200 kr |
+| Brettspill / aktiviteter | 150 kr |
+| Piknikkurv med snacks | Fra 350 kr |
+| Roseblader strødd | 100 kr |
+| Ekstra vaser og blomster | Fra 200 kr |
+| Fotograf (samarbeidspartner) | Fra 1 200 kr |
+
+---
+
+### Prislogikk
+
+- **Variabel kostnad per event** (blomster, forbruksmateriell, drivstoff): 400–600 kr
+- **Arbeidstid**: grunnleggerenes egen tid — ikke lønnskostnad i fase 1
+- **Bruttomargin**: ~75–80 % per event
+- Prisene er satt på nivå med referanseaktøren @pop.up.piknik i Oslo, men er forsvarlige fordi transportkostnadene er lavere lokalt
+
+---
+
+### Betalingsbetingelser
+
+- **50 % depositum** ved booking (via Vipps)
+- **50 % restbetaling** senest 48 timer før event
+- Avbestilling 7+ dager før: full refusjon av depositum
+- Avbestilling 3–6 dager før: 50 % av depositum refunderes
+- Avbestilling under 3 dager: ingen refusjon
+- Sikkerhetsdepositum på 500 kr tas ved risiko for utstyrsskade (returneres etter event)
+
+---
