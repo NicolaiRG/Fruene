@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fruene — Pop Up Piknik Stavanger</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink:       #f7a8c4;
+      --pink-light: #fde8f0;
+      --pink-deep:  #e8749a;
+      --cream:      #fff8f3;
+      --beige:      #f5e6d8;
+      --gold:       #d4a96a;
+      --text:       #c4607e;
+      --text-soft:  #d48fa8;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: var(--pink-light);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ─── NAV ─────────────────────────────────────────── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(253,232,240,0.92);
+      backdrop-filter: blur(8px);
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 28px;
+      border-bottom: 2px dashed var(--pink);
+    }
+    .nav-logo {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.6rem;
+      color: var(--pink-deep);
+      text-decoration: none;
+    }
+    .nav-links { display: flex; gap: 24px; list-style: none; }
+    .nav-links a {
+      text-decoration: none; font-weight: 700; font-size: 0.9rem;
+      color: var(--text-soft);
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--pink-deep); }
+
+    /* ─── HERO ────────────────────────────────────────── */
+    .hero {
+      text-align: center;
+      padding: 70px 24px 56px;
+      background: linear-gradient(160deg, #fce4ef 0%, #fdf0f8 60%, #fdebd0 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before,
+    .hero::after {
+      content: '♡';
+      font-size: 120px;
+      opacity: .07;
+      position: absolute;
+      color: var(--pink-deep);
+    }
+    .hero::before { top: -20px; left: -20px; transform: rotate(-15deg); }
+    .hero::after  { bottom: -30px; right: -10px; transform: rotate(20deg); }
+
+    .hero-badge {
+      display: inline-block;
+      background: var(--pink);
+      color: #fff;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 18px;
+      border-radius: 99px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: clamp(2.8rem, 8vw, 5.5rem);
+      color: var(--pink-deep);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .hero h1 span { color: var(--gold); }
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      max-width: 520px;
+      margin: 0 auto 32px;
+      color: var(--text-soft);
+      line-height: 1.7;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--pink-deep);
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 14px 36px;
+      border-radius: 99px;
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 6px 20px rgba(232,116,154,.35);
+    }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(232,116,154,.4); }
+    .btn-outline {
+      background: transparent;
+      border: 2.5px solid var(--pink-deep);
+      color: var(--pink-deep);
+      box-shadow: none;
+    }
+    .btn-outline:hover { background: var(--pink-deep); color: #fff; }
+
+    .hearts-row {
+      margin-top: 40px;
+      font-size: 1.6rem;
+      letter-spacing: 8px;
+      opacity: .55;
+    }
+
+    /* ─── SECTION BASE ────────────────────────────────── */
+    section { padding: 64px 24px; }
+    .section-inner { max-width: 960px; margin: 0 auto; }
+    .section-title {
+      font-family: 'Pacifico', cursive;
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      color: var(--pink-deep);
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .section-sub {
+      text-align: center;
+      color: var(--text-soft);
+      font-size: 1rem;
+      margin-bottom: 44px;
+    }
+    .divider {
+      width: 60px; height: 3px;
+      background: var(--pink);
+      border-radius: 99px;
+      margin: 12px auto 40px;
+    }
+
+    /* ─── INFO BANNER ─────────────────────────────────── */
+    .info-banner {
+      background: var(--pink-deep);
+      color: #fff;
+      text-align: center;
+      padding: 22px 24px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+    .info-banner span { opacity: .85; font-weight: 400; }
+
+    /* ─── FARGER ──────────────────────────────────────── */
+    .farger-section { background: var(--cream); }
+    .colors-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+    .color-chip {
+      display: flex; align-items: center; gap: 10px;
+      background: #fff;
+      border: 2px solid var(--pink);
+      border-radius: 99px;
+      padding: 8px 20px;
+      font-weight: 700;
+      font-size: .95rem;
+      color: var(--text);
+    }
+    .color-dot {
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      border: 2px solid rgba(0,0,0,.06);
+    }
+
+    /* ─── UTSTYR ──────────────────────────────────────── */
+    .utstyr-section { background: var(--pink-light); }
+    .utstyr-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 28px;
+    }
+    .utstyr-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 4px 18px rgba(232,116,154,.1);
+      border-top: 4px solid var(--pink);
+    }
+    .utstyr-card h3 {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.15rem;
+      color: var(--pink-deep);
+      margin-bottom: 16px;
+    }
+    .utstyr-card ul { list-style: none; }
+    .utstyr-card li {
+      padding: 5px 0;
+      color: var(--text-soft);
+      font-size: .95rem;
+      display: flex; align-items: flex-start; gap: 8px;
+    }
+    .utstyr-card li::before { content: '♡'; color: var(--pink); flex-shrink: 0; }
+
+    /* ─── TEMAER ──────────────────────────────────────── */
+    .temaer-section { background: var(--beige); }
+    .temaer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+    .tema-chip {
+      background: #fff;
+      border: 2px dashed var(--pink);
+      border-radius: 16px;
+      padding: 18px 16px;
+      text-align: center;
+      font-weight: 700;
+      font-size: .95rem;
+      color: var(--text);
+      transition: transform .2s, background .2s;
+      cursor: default;
+    }
+    .tema-chip:hover { transform: scale(1.04); background: var(--pink-light); }
+    .tema-chip .tema-icon { font-size: 1.6rem; display: block; margin-bottom: 8px; }
+
+    /* ─── PRISLISTE ───────────────────────────────────── */
+    .pris-section { background: linear-gradient(135deg, #fce4ef, #fdf0e8); }
+    .pris-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+    .pris-card {
+      background: #fff;
+      border-radius: 24px;
+      padding: 32px 20px;
+      text-align: center;
+      box-shadow: 0 6px 24px rgba(232,116,154,.13);
+      position: relative;
+      overflow: hidden;
+    }
+    .pris-card.featured {
+      background: var(--pink-deep);
+      color: #fff;
+      transform: scale(1.04);
+    }
+    .pris-card.featured .pris-label,
+    .pris-card.featured .pris-amount,
+    .pris-card.featured .pris-note { color: #fff; }
+    .pris-card::before {
+      content: '♡';
+      font-size: 80px;
+      opacity: .05;
+      position: absolute;
+      top: -10px; right: -10px;
+    }
+    .pris-label {
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--text-soft);
+      margin-bottom: 12px;
+    }
+    .pris-amount {
+      font-family: 'Pacifico', cursive;
+      font-size: 2rem;
+      color: var(--pink-deep);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .pris-note {
+      font-size: .85rem;
+      color: var(--text-soft);
+    }
+
+    /* Tilvalg */
+    .tilvalg-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+    .tilvalg-item {
+      background: #fff;
+      border-radius: 14px;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(232,116,154,.08);
+    }
+    .tilvalg-name { font-weight: 700; font-size: .9rem; }
+    .tilvalg-price {
+      background: var(--pink-light);
+      color: var(--pink-deep);
+      font-weight: 800;
+      font-size: .85rem;
+      padding: 4px 12px;
+      border-radius: 99px;
+    }
+
+    /* ─── BOOKING ─────────────────────────────────────── */
+    .booking-section { background: var(--cream); }
+    .booking-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+    .step {
+      text-align: center;
+    }
+    .step-num {
+      width: 52px; height: 52px;
+      background: var(--pink-deep);
+      color: #fff;
+      border-radius: 50%;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.4rem;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 14px;
+      box-shadow: 0 4px 14px rgba(232,116,154,.3);
+    }
+    .step h4 { font-size: .95rem; font-weight: 800; margin-bottom: 6px; }
+    .step p  { font-size: .85rem; color: var(--text-soft); line-height: 1.5; }
+
+    .booking-cta {
+      background: linear-gradient(135deg, var(--pink-deep), #c85c8a);
+      border-radius: 28px;
+      padding: 48px 32px;
+      text-align: center;
+      color: #fff;
+    }
+    .booking-cta h3 {
+      font-family: 'Pacifico', cursive;
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      margin-bottom: 14px;
+    }
+    .booking-cta p { opacity: .88; margin-bottom: 28px; font-size: 1.05rem; }
+    .btn-white {
+      background: #fff;
+      color: var(--pink-deep);
+      box-shadow: 0 6px 20px rgba(0,0,0,.15);
+    }
+    .btn-white:hover { background: var(--pink-light); transform: translateY(-3px); }
+
+    /* ─── FOOTER ──────────────────────────────────────── */
+    footer {
+      background: var(--pink-deep);
+      color: rgba(255,255,255,.85);
+      text-align: center;
+      padding: 40px 24px;
+    }
+    footer .footer-logo {
+      font-family: 'Pacifico', cursive;
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    footer p { font-size: .9rem; margin-bottom: 6px; }
+    footer a { color: #fff; text-decoration: underline; }
+    .footer-hearts { font-size: 1.3rem; margin-top: 18px; letter-spacing: 6px; opacity: .6; }
+
+    /* ─── MOBILE ──────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .pris-card.featured { transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Fruene</a>
+  <ul class="nav-links">
+    <li><a href="#utstyr">Utstyr</a></li>
+    <li><a href="#temaer">Temaer</a></li>
+    <li><a href="#priser">Priser</a></li>
+    <li><a href="#booking">Booking</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">✨ Stavanger & Sandnes</div>
+  <h1>Pop Up<br /><span>Piknik</span></h1>
+  <p>Vi setter opp drømmen din ♡<br />
+     Alt i ønsket farge og tema — vi leverer, setter opp og tar ned for deg!</p>
+  <a href="#booking" class="btn">Book piknik nå</a>
+  &nbsp;
+  <a href="#priser" class="btn btn-outline">Se priser</a>
+  <div class="hearts-row">♡ ♡ ♡ ♡ ♡</div>
+</section>
+
+<!-- INFO BANNER -->
+<div class="info-banner">
+  Alt kan kombineres og blir levert i ønsket farge og tema!
+  <span> — Vi leverer, henter, setter opp og tar ned for deg!</span>
+</div>
+
+<!-- FARGER -->
+<section class="farger-section" id="farger">
+  <div class="section-inner">
+    <h2 class="section-title">Farger</h2>
+    <div class="divider"></div>
+    <p class="section-sub">Velg din favorittfarge — vi tilpasser alt etter ditt ønske!</p>
+    <div class="colors-grid">
+      <div class="color-chip"><div class="color-dot" style="background:#f7a8c4"></div>Rosa</div>
+      <div class="color-chip"><div class="color-dot" style="background:#aac4e0"></div>Blå</div>
+      <div class="color-chip"><div class="color-dot" style="background:#e8d5b7"></div>Beige</div>
+      <div class="color-chip"><div class="color-dot" style="background:#d4a96a"></div>Gull</div>
+      <div class="color-chip"><div class="color-dot" style="background:#f8f4ef"></div>Hvit</div>
+      <div class="color-chip"><div class="color-dot" style="background:#c4a882"></div>Brun</div>
+      <div class="color-chip"><div class="color-dot" style="background:#9bbf8a"></div>Grønn</div>
+      <div class="color-chip"><div class="color-dot" style="background:#d96b6b"></div>Rød</div>
+      <div class="color-chip" style="border-style:dashed">+ alle andre farger du ønsker!</div>
+    </div>
+  </div>
+</section>
+
+<!-- UTSTYR -->
+<section class="utstyr-section" id="utstyr">
+  <div class="section-inner">
+    <h2 class="section-title">Hva er inkludert?</h2>
+    <div class="divider"></div>
+    <p class="section-sub">Alt du trenger for en perfekt piknikopplevelse</p>
+    <div class="utstyr-grid">
+
+      <div class="utstyr-card">
+        <h3>Bord & møbler</h3>
+        <ul>
+          <li>Lavt bord</li>
+          <li>Støtter til bord</li>
+          <li>Hvite duker</li>
+          <li>Myke puter til å sitte på</li>
+          <li>Bordløpere</li>
+          <li>Bordbrikker</li>
+        </ul>
+      </div>
+
+      <div class="utstyr-card">
+        <h3>Dekketøy</h3>
+        <ul>
+          <li>Tallerkner per person</li>
+          <li>Glass per person</li>
+          <li>Bestikk (kniv, gaffel, skje)</li>
+          <li>Servietter</li>
+          <li>Setvietrringer</li>
+        </ul>
+      </div>
+
+      <div class="utstyr-card">
+        <h3>Blomster & dekor</h3>
+        <ul>
+          <li>Blomsterarrangement</li>
+          <li>Vaser</li>
+          <li>Blomsterbuketter</li>
+          <li>Strå-buketter i brun/beige</li>
+          <li>Grønne bladlenker</li>
+          <li>Sløyfer til glass</li>
+        </ul>
+      </div>
+
+      <div class="utstyr-card">
+        <h3>Pynt & stemning</h3>
+        <ul>
+          <li>Stillas over bord</li>
+          <li>Etasjefat</li>
+          <li>Skåler</li>
+          <li>Lysestaker</li>
+          <li>Lys (høye/lave)</li>
+          <li>Lyslenker</li>
+          <li>Flagg</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TEMAER -->
+<section class="temaer-section" id="temaer">
+  <div class="section-inner">
+    <h2 class="section-title">Temaer</h2>
+    <div class="divider"></div>
+    <p class="section-sub">Velg et tema — eller lag ditt eget! Alt er mulig ♡</p>
+    <div class="temaer-grid">
+      <div class="tema-chip"><span class="tema-icon">🎨</span>Paint & Sip</div>
+      <div class="tema-chip"><span class="tema-icon">🤍</span>Perle Piknik</div>
+      <div class="tema-chip"><span class="tema-icon">🥂</span>Vors / Forparty</div>
+      <div class="tema-chip"><span class="tema-icon">🍼</span>Babyshower</div>
+      <div class="tema-chip"><span class="tema-icon">🎂</span>Bursdag</div>
+      <div class="tema-chip"><span class="tema-icon">💍</span>Utdrikningslag</div>
+      <div class="tema-chip"><span class="tema-icon">🇳🇴</span>17. mai</div>
+      <div class="tema-chip"><span class="tema-icon">☀️</span>Sommerfest</div>
+      <div class="tema-chip"><span class="tema-icon">🌹</span>Romantisk date</div>
+      <div class="tema-chip"><span class="tema-icon">💍</span>Frieri / Forlovelse</div>
+      <div class="tema-chip"><span class="tema-icon">🎓</span>Konfirmasjon</div>
+      <div class="tema-chip"><span class="tema-icon">✨</span>Ditt eget tema!</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRISER -->
+<section class="pris-section" id="priser">
+  <div class="section-inner">
+    <h2 class="section-title">Prisliste</h2>
+    <div class="divider"></div>
+    <p class="section-sub">Transparent prising — ingen skjulte kostnader</p>
+
+    <div class="pris-cards">
+      <div class="pris-card">
+        <div class="pris-label">2 personer</div>
+        <div class="pris-amount">Fra<br />1 299 kr</div>
+        <div class="pris-note">Romantisk for to</div>
+      </div>
+      <div class="pris-card featured">
+        <div class="pris-label">4–8 personer</div>
+        <div class="pris-amount">375 kr<br /><small style="font-size:1rem">/ person</small></div>
+        <div class="pris-note">Populært valg ♡</div>
+      </div>
+      <div class="pris-card">
+        <div class="pris-label">9–15 personer</div>
+        <div class="pris-amount">345 kr<br /><small style="font-size:1rem">/ person</small></div>
+        <div class="pris-note">Perfekt for grupper</div>
+      </div>
+      <div class="pris-card">
+        <div class="pris-label">16–20 personer</div>
+        <div class="pris-amount">315 kr<br /><small style="font-size:1rem">/ person</small></div>
+        <div class="pris-note">Store feiringer</div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Pacifico',cursive;font-size:1.5rem;color:var(--pink-deep);text-align:center;margin-bottom:24px;">Tilvalg</h3>
+    <div class="tilvalg-grid">
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Ballongbue / -girlander</span><span class="tilvalg-price">400–800 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Etasjefat / kakestativ</span><span class="tilvalg-price">150 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Lysende LED-skilt</span><span class="tilvalg-price">350 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Lys & lysestaker</span><span class="tilvalg-price">200 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Brettspill / aktiviteter</span><span class="tilvalg-price">150 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Piknikkurv med snacks</span><span class="tilvalg-price">Fra 350 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Roseblader strødd</span><span class="tilvalg-price">100 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Ekstra vaser & blomster</span><span class="tilvalg-price">Fra 200 kr</span></div>
+      <div class="tilvalg-item"><span class="tilvalg-name">♡ Fotograf (samarbeidspartner)</span><span class="tilvalg-price">Fra 1 200 kr</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking-section" id="booking">
+  <div class="section-inner">
+    <h2 class="section-title">Slik booker du</h2>
+    <div class="divider"></div>
+    <div class="booking-steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h4>Send oss en DM</h4>
+        <p>Ta kontakt på Instagram eller via kontaktskjema</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h4>Vi sender tilbud</h4>
+        <p>Pakkealternativer og ledige datoer</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h4>Betal depositum</h4>
+        <p>50 % forskudd via Vipps bekrefter bookingen</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h4>Ankom og nyt!</h4>
+        <p>Vi setter opp alt — du bare ankommer drømmescenen</p>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <h4>Vi rydder opp</h4>
+        <p>Vi henter alt etterpå — du trenger ikke løfte en finger</p>
+      </div>
+    </div>
+
+    <div class="booking-cta">
+      <h3>Sett sammen din drømmepiknik og book i dag!</h3>
+      <p>Ingen forespørsel er for liten eller for stor ♡<br />
+         Vi hjelper deg med alt — fra fargevalg til dekortema.</p>
+      <a href="https://www.instagram.com/fruene.stavanger" target="_blank" class="btn btn-white">
+        Send oss en DM på Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Fruene</div>
+  <p><em>Vi setter opp drømmen din</em></p>
+  <p>Stavanger & Sandnes — 2026</p>
+  <p><a href="https://www.instagram.com/fruene.stavanger" target="_blank">@fruene.stavanger</a></p>
+  <div class="footer-hearts">♡ ♡ ♡</div>
+</footer>
+
+</body>
+</html>
