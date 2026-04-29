@@ -217,3 +217,78 @@ Alle events kjøres med fast sjekkliste for å unngå glemt utstyr:
 - [ ] Visittkort til kunden
 
 ---
+
+## Del 6: Markedsføring
+
+### Strategi i korthet
+
+Fruene er et visuelt produkt — hvert oppsett er i seg selv markedsføring. Strategien er å la innholdet gjøre jobben: hvert event gir bilder og videoer som selger neste booking.
+
+**Primærkanal:** Instagram
+**Sekundærkanal:** TikTok
+**Gratiskanal:** Muntlig anbefaling og kundetagging
+
+---
+
+### Instagram
+
+**Handle:** `@fruene.stavanger`
+
+| Innholdstype | Frekvens | Formål |
+|---|---|---|
+| Reel av oppsett (time-lapse) | Etter hvert event | Visibilitet, rekkevidde |
+| Karusellfoto av ferdig piknik | Etter hvert event | Salg, inspirasjonsinnhold |
+| Stories: pakking, kjøring, oppsett | Løpende | Autentisitet, tillit |
+| Tilbakemeldinger fra kunder | Løpende | Sosialt bevis |
+| Sesongkampanjer (17. mai, jul, etc.) | Månedlig | Rettet salg |
+
+**Mål:**
+- 500 følgere før første betalte annonse
+- 2 000 følgere innen måned 6
+- 5 000 følgere innen utgangen av år 1
+
+---
+
+### TikTok
+
+**Handle:** `@fruene.stavanger`
+
+Fokus på transformasjonsvideoer — tomt gressareal til ferdig drømmepiknik på 30 sekunder. "Day in the life"-format fungerer godt og bygger personlig tilknytning til grunnleggerne.
+
+---
+
+### Samarbeid & partnerskap
+
+| Partner | Hva vi tilbyr | Hva vi får |
+|---|---|---|
+| Lokal blomsterbutikk | Synlighet på Instagram | Rabatterte blomster, gjensidig anbefaling |
+| Bryllupsfotograf / eventuell fotograf | Anbefaling til felles kunder | Referanser, fotograftilvalg |
+| Hoteller og Airbnb-verter | Provisjon per booking | Tilgang til gjester som feirer noe |
+| Lokale influensere (2 000–20 000 følgere) | Gratis eller rabattert piknik | Innhold og eksponering |
+
+---
+
+### Kampanjer
+
+**Myk lansering (måned 1–2):**
+Tilby 2–3 gratis eller sterkt rabatterte piknikker til lokale mikroinfluensere mot innhold. Dette gir innholdsbibliotek og sosial bevis fra dag én.
+
+**17. mai-kampanje (mai):**
+Særtilbud på norsk tema-piknik. Aktiv annonsering 3–4 uker i forkant. Målrettes mot familier og vennegjenger i Stavanger-området.
+
+**Gavekortkampanje (november–desember):**
+"Gi bort en drømmepiknik" — perfekt julegave. Selges via DM og nettside.
+
+**Kundelojalitet:**
+Kunder som tagger oss og deler innhold får 10 % rabatt på neste booking.
+
+---
+
+### Betalt annonsering
+
+Starter ikke med betalt annonsering før organisk vekst er etablert. Fra måned 4:
+- Instagram-annonser rettet mot kvinner 20–40 år i Stavanger/Sandnes
+- Budsjett: 500–1 000 kr/mnd
+- Fokus på høysesong (17. mai, sommer, jul)
+
+---
