@@ -24,12 +24,12 @@
 
 | Produkt | Antall | Est. pris/stk | Kjøp her |
 |---|---|---|---|
-| Lavt piknikbord (salongbord/koffertbord) | 3–4 | 400–700 kr | [IKEA](https://www.ikea.com/no/no/) — søk "LACK" eller "VITTSJÖ" |
+| Solide sammenleggbare bord (heltre/stål) | 3–4 | 800–1 500 kr | [AJ Produkter](https://www.ajprodukter.no/kantine/bord/sammenleggbare-bord) — god kvalitet, tåler gjentatt bruk |
 | Sammenleggbare bordben / trestøtter | 6–8 par | 80–150 kr | [Jysk](https://jysk.no) / [Clas Ohlson](https://www.clasohlson.com/no) |
 | Gulvputer / sitteputeer (store, myke) | 12–16 | 80–150 kr | [IKEA](https://www.ikea.com/no/no/) — søk "POÄNG" pute / "KUNGSBLOMMA" |
 | Gulvputer utendørs (vannavvisende) | 6–8 | 150–250 kr | [Jysk](https://jysk.no) / [Clas Ohlson](https://www.clasohlson.com/no) |
 
-**Handletips:** IKEA LACK-bord (kr 199) er perfekt som piknikbord og er lette å stable. Kjøp 2–3 stykk til start.
+**Handletips:** Unngå IKEA LACK til næringsbruk — det er papir innvendig og tåler ikke gjentatt frakt. AJ Produkter har solide sammenleggbare bord beregnet på kantine/event-bruk som vil vare langt lenger.
 
 ---
 
