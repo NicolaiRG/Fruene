@@ -420,3 +420,36 @@ En enkel mal kan lages i Word og sendes digitalt via e-post eller [Verified](htt
 - Perfekt for to grunnleggere med delt tilgang
 
 ---
+
+## Del 9: 12-måneders veikart
+
+| Måned | Milepæl |
+|---|---|
+| **1** | Registrer firma, kjøp grunnutstyr, lag logo og Instagram-profil |
+| **2** | Gjennomfør 2–3 gratis/rabatterte events for influensere — bygg innholdsbibliotek |
+| **3** | Første 4 betalende kunder. 17. mai-kampanje lanseres |
+| **4** | TikTok-konto lanseres. Første betalte Instagram-annonse |
+| **5** | 1 000 Instagram-følgere. Legg til Paint & Sip som tema |
+| **6** | Lei lagerenhet. Vurder varebil. Begge grunnleggere tar ut lønn |
+| **7–8** | Bedriftsmarkedet: kontakt oljerelaterte selskaper og Stavanger-firmaer |
+| **9** | Lanser gavekortprodukt til høst/jul-sesongen |
+| **10–11** | Julefrokost-sesong: innendørs piknik/borddekkingstjeneste |
+| **12** | Årsgjennomgang. Planlegg ansettelse av deltidsassistent til sommerpeak |
+
+---
+
+### Kvartalsvise fokusområder
+
+**Kvartal 1 — Etablering**
+Kom i gang, bygg innhold, få de første betalende kundene og finn flyten i driften.
+
+**Kvartal 2 — Vekst**
+Høysesong (17. mai, konfirmasjon, sommer). Maks kapasitetsutnyttelse. Bygg følgerskare aktivt.
+
+**Kvartal 3 — Skalering**
+Bedriftskunder, gavekort, vurder lager og transport. Begynn å delegere enkeltoppgaver.
+
+**Kvartal 4 — Konsolidering**
+Julesesong, evaluer året, planlegg år 2 med mer kapasitet og mulig ansettelse.
+
+---
