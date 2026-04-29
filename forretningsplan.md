@@ -359,3 +359,64 @@ Break-even er svært lavt — allerede fra 2 events per måned dekkes de faste k
 | År 3 | ~1 600 000 kr | ~400 | Fast ansatt, merkevare etablert |
 
 ---
+
+## Del 8: Juss & Admin
+
+### Selskapsform
+
+**Anbefaling: Aksjeselskap (AS)**
+
+Et AS gir begge grunnleggerne begrenset personlig ansvar, en ryddig 50/50-eierstruktur og er enklere å skalere med ansatte og investorer senere.
+
+| Alternativ | Fordeler | Ulemper |
+|---|---|---|
+| Enkeltpersonforetak (ENK) | Gratis å registrere, enkelt | Personlig ansvar for gjeld |
+| Ansvarlig selskap (DA) | Enkelt å opprette | Begge har personlig ansvar |
+| Aksjeselskap (AS) | Begrenset ansvar, ryddig eierskap | ~6 900 kr å registrere, noe mer admin |
+
+Registrering gjøres via [Brønnøysundregistrene](https://www.brreg.no) / [Altinn](https://www.altinn.no).
+
+---
+
+### MVA (merverdiavgift)
+
+- MVA-registrering er **påkrevd når omsetningen overstiger 50 000 kr per år**
+- Med 150+ events i år 1 vil grensen nås allerede i måned 2–3
+- Registrer MVA via Altinn så snart grensen nærmer seg
+- Piknik-tjenester faktureres med **25 % MVA**
+- Bruk Fiken — det håndterer MVA-rapportering automatisk
+
+---
+
+### Forsikring
+
+| Forsikring | Hva det dekker | Estimert kostnad |
+|---|---|---|
+| Innboforsikring (utvidet) | Utstyr og inventar | 200–400 kr/mnd |
+| Ansvarsforsikring | Skade på tredjepart under event | 150–300 kr/mnd |
+
+Ta kontakt med [Gjensidige](https://www.gjensidige.no) eller [If](https://www.if.no) for tilbud på næringslivsforsikring.
+
+---
+
+### Kontrakter & vilkår
+
+Alle kunder bør signere en enkel avtale som dekker:
+- Pakkeinnhold og pris
+- Avbestillingsvilkår
+- Ansvar for skade på utstyr
+- Rett til å bruke bilder i markedsføring (med kundens samtykke)
+
+En enkel mal kan lages i Word og sendes digitalt via e-post eller [Verified](https://www.verified.eu/no) for digital signering.
+
+---
+
+### Regnskap
+
+**Anbefalt verktøy: [Fiken](https://www.fiken.no)**
+- 179 kr/mnd
+- Norskutviklet, MVA-rapportering inkludert
+- Kobles til bankkonto for automatisk føring
+- Perfekt for to grunnleggere med delt tilgang
+
+---
