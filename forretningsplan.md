@@ -147,3 +147,73 @@ Basispakken inkluderer alltid: bord, puter, duk, bordløper, komplett kuvert per
 - Sikkerhetsdepositum på 500 kr tas ved risiko for utstyrsskade (returneres etter event)
 
 ---
+
+## Del 5: Drift & Operasjoner
+
+### Rollefordeling
+
+| Ansvarsområde | Primæransvar |
+|---|---|
+| Booking, kundehenvendelser, kontrakter | Grunnlegger A (27) |
+| Instagram, TikTok, innholdsproduksjon | Grunnlegger A (27) |
+| Innkjøp, lager og utstyrsoversikt | Grunnlegger B (25) |
+| Oppsett, nedrigging, logistikk | Grunnlegger B (25) |
+| Regnskap og økonomi | Grunnlegger B (25) |
+
+Begge deltar på fysisk oppsett og nedrigging på alle events.
+
+---
+
+### Bookingflyt
+
+1. Kunde tar kontakt via Instagram DM eller kontaktskjema på nettside
+2. Vi sender pakkealternativer, ledige datoer og pristilbud
+3. Kunde bekrefter og betaler 50 % depositum via Vipps
+4. Vi bekrefter booking skriftlig med dato, sted og pakkedetaljer
+5. Restbeløp betales 48 timer før event
+6. Oppsett på dagen — vi ankommer 60–90 min før avtalt tidspunkt
+7. Kunden ankommer ferdig oppsatt piknik
+8. Nedrigging avtalt tid etter event (vanligvis 2–3 timer senere)
+
+---
+
+### Tidsbruk per event
+
+| Aktivitet | Tid |
+|---|---|
+| Pakking og klargjøring hjemme | 45–60 min |
+| Kjøring til lokasjon | 10–30 min |
+| Oppsett på stedet | 60–90 min |
+| Nedrigging | 30–45 min |
+| Kjøring hjem + pakking ut | 30–45 min |
+| **Total per event** | **~3,5–4,5 timer** |
+
+Maks 2 events per dag i oppstartsfasen — ett på formiddagen, ett på ettermiddagen.
+
+---
+
+### Lager & transport
+
+**Fase 1 (måned 1–5):** Hjemmelagring i garasje eller bod. Ingen leieutgifter.
+
+**Fase 2 (fra måned 6):** Leid lagerenhet på ~10–15 m², estimert 500–800 kr/mnd, når utstyrsvolum tilsier det.
+
+**Transport:** Egne kjøretøy i oppstart. Fra måned 9+ vurderes leie av merket varebil dersom volumet forsvarer det.
+
+---
+
+### Sjekkliste per event
+
+Alle events kjøres med fast sjekkliste for å unngå glemt utstyr:
+
+- [ ] Bord og støtter
+- [ ] Puter (riktig antall)
+- [ ] Duk, bordløper og bordbrikker
+- [ ] Kuvert per person (tallerken, glass, bestikk, serviett, servettring)
+- [ ] Blomster og vaser
+- [ ] Lys og lysestaker
+- [ ] Bestilt dekor (ballonger, skilt, ekstrautstyr)
+- [ ] Kamera/telefon for innholdsfoto
+- [ ] Visittkort til kunden
+
+---
